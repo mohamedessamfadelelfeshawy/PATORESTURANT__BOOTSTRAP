@@ -1,0 +1,121 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+   overflow-x: hidden; 
+}
+
+.navbar{
+  color: black;
+  padding: 30px;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-around;
+}
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+.navbar li a{
+  text-decoration: none;
+  color:black;
+  margin-left: 50px;
+  font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+.navbar li a:hover{
+  background-color: blue;
+  color: black;
+}
+.dav3 i{
+  margin-left: 25px;
+}
+/* newwwwww */
+ 
+
+.ww{
+  margin-top: 150px;
+  width: 550px;
+  border-radius: 10px;
+}
+.ww:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: rgb(24, 20, 20);
+}
+
+      .footerCountainer{
+          width: 2000px;
+          height: auto;
+          padding: 40px;
+          background-color: rgb(39, 29, 29);
+          color: white;
+          display: flex;
+          font-size: 20px;
+          text-align: center;
+      }
+
+      .contactUs{
+          width: 33%;
+          height: auto;
+          display: row;
+          justify-content: center;
+          justify-content: space-around;
+          
+      }
+      .contactUs h4{
+      padding: 20px;
+      }
+
+      .contactUs p{
+          font-style: thin;
+      }
+
+      .twitter{
+          width: 33%;
+          height: auto;
+          display: row;
+          justify-content: center;
+          justify-content: space-around;
+      }
+
+      .twitter a{
+          color: red;
+      }
+
+      .twitter h4{
+          padding: 20px;
+        }
+
+      .gallery{
+          width: 33%;
+          height: auto;
+          display: row;
+          justify-content: center;
+          justify-content: space-around;
+      }
+
+      .photosCountainer{
+          display: grid;
+          grid-template-columns: auto auto auto;  
+          grid-template-rows: auto auto auto;
+          justify-content: center;
+          gap: 10px;
+      }
+
+      .photosCountainer div img{
+          width: 80px;
+          height: 80px;
+      }
